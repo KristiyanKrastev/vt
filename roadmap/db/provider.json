@@ -1,0 +1,42 @@
+"provider": {
+    "_id": "Generated String by a function",
+    "contacts": {
+        "contactName": "Name - String",
+        "companyName": "Comapny - String",
+        "email": "E-mail address",
+        "phone": "Phone",
+        "country": "US, Canada, Australia, New Zeland",
+        "state": "Depends on the Country selected",
+        "website": "website"
+    },
+    "credentials": {
+        "username": "String",
+        "password": "password - https://github.com/kelektiv/node.bcrypt.js"
+    },
+    "customDomain":{
+        "domainName":"domainname.com",
+        "active":"boolean"
+    },
+    "tours":[
+        {
+            "tour_id":"tour_id",
+            "address":"tour address",
+            "status":"1 - active, 2 - inactive... etc. payment ...",
+            "realtour":{
+                "_id": "realtor_id",
+                "name":"realtour name"
+            },
+            "thumbnails":{
+                "thx1":"url",
+                "thx2":"url",
+                "thx3":"url"
+            }
+        }
+    ],
+    "clients": [
+        {
+            "_id":"client id",
+            "name":"client name",
+        }
+    ]
+}
